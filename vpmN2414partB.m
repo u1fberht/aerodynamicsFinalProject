@@ -133,16 +133,6 @@ for i=1:NumPan
 end
 cp(NumPan+1)=cp(1);
 
-hold on
-% Retaining current axes for plot. Prevents deleting old plots.
-
-patch(airfoil(:,1),-airfoil(:,2),'y')
-plot(airfoil(:,1),cp,'--')
-axis ij
-xlabel('x')
-ylabel('Cp')
-
-
 cy = 0.0;
 cx = 0.0;
 
